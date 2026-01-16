@@ -25,7 +25,7 @@ function Skills() {
             <div className="skills-grid stagger-children">
                 {skills.map((skill, index) => (
                     <div key={index} className="skill-tag">
-                        {skill}
+                        <span className="skill-text">{skill}</span>
                     </div>
                 ))}
             </div>

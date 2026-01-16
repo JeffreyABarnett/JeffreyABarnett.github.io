@@ -29,7 +29,7 @@ function Header() {
                         Atlanta, GA
                     </span>
                     <a
-                        href="https://linkedin.com/in/jeffrey-barnett"
+                        href="https://www.linkedin.com/in/jeffreyabarnett/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="contact-item"
