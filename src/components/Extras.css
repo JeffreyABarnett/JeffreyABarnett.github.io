@@ -1,0 +1,99 @@
+.extras-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.extras-card {
+    padding: 1.5rem;
+}
+
+.extras-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    background: var(--gradient-mixed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.extras-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.extra-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.extra-icon {
+    font-size: 1.5rem;
+}
+
+.extra-item strong {
+    display: block;
+    font-weight: 500;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+}
+
+.extra-role {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.interests-section {
+    margin-top: 1.5rem;
+}
+
+.interests-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.interests-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.interest-pill {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    padding: 0.6rem 1.25rem;
+    border-radius: var(--radius-full);
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.interest-pill:hover {
+    background: var(--gradient-mixed);
+    color: white;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: var(--shadow-lg);
+}
+
+.interest-emoji {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .extras-grid {
+        grid-template-columns: 1fr;
+    }
+}
